@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Poppins", sans-serif;
+}
+
+.topBar{
+  margin-bottom: 120px;
+}
+
+.topBarSection{
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  
+  background-color: white;
+  z-index: 2;
+  
+}
+
+.itemSection{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lightgray;
+  margin-top: 50px;
+  height: 35vh;
+  
+}
+
+
+.gallery img{
+  width: 100%;
+}
+
+.landingSectionItems{
+  
+  padding: 0 120px;
+  min-height: 100vh;
+  
+ 
+}
+
+
+/* Chains section */
+
+.chainsdiv{
+   border-bottom: 1px solid lightgray;
+   margin-bottom: 50px;
+}
+
+.chainSection{
+  
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  height: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  margin-bottom: 80px;
+ 
+
+}
+
+.scrollbtns{
+  
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-align: right;
+  cursor: pointer;
+  font-size: 20px;
+  padding-right: 10px;
+ 
+}
+
+.scrollicons{
+  color: gray;
+  font-size: 30PX;
+}
+.scrollicons:hover{
+  transform: scale(1.1);
+  color: rgb(64, 144, 235);
+}
+
+.scrollicons:active{
+  color: rgb(7, 95, 195);
+}
+
+
+
+
+
+.vendorBox{
+ 
+}
+
+.vendorBox img{ 
+      width: 320px;
+      height: 200px;
+      margin: 0 15px ;
+      margin-left: 0;
+      object-fit: cover;
+      border-radius: 10px;
+}
+
+.firmSection{
+  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  margin: 0 auto;
+ 
+
+  
+ 
+  
+  
+}
+
+.vendorGroupbox{
+  
+  margin-bottom: 30px;
+  
+  
+  
+}
+
+
+
+.vendorGroup{
+  position: relative;
+ 
+  overflow: hidden;
+ 
+
+}
+
+.vendorGroup:hover{
+   transform: scale(0.95);
+  
+   cursor: pointer;
+   transition-duration: 0.45s;
+}
+
+
+
+
+
+.vendorGroup img{
+  width: 220px;
+  height: 140px;
+  margin-right: 15px;
+  flex: 0 0 auto;
+  
+  
+  border-radius: 20px;
+  object-fit: cover;
+  
+
+}
+
+.firmOffer{
+  
+  width: 100%;
+  max-width:87%;
+  position: absolute;
+ 
+  top:107px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+
+  padding-top: 10px;
+  background: transparent;
+  background: linear-gradient(to bottom , rgba(59, 50, 20, 0.08),black);
+  color: white;
+  text-transform: uppercase;
+  
+  
+}
+
+
+
+.firmDetails{
+ 
+}
+
+.firmDetails ul, li{
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.firmCate{
+  color: gray;
+  font-size: small;
+  text-transform: capitalize;
+}
+
+/* Product Section */
+
+
+.productSection{
+  display: flex;
+  flex-direction: column;
+  padding: 0 190px;
+  margin-top: 100px;
+
+  
+}
+
+.productDetails{
+   display: flex;
+   justify-content: space-between;
+   border-top: 1px solid lightgray;
+   padding: 10px 0;
+   position: relative;
+}
+
+.productImage img{
+  width: 130px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.productsVariables{
+  display: flex;
+  flex-direction: column;
+}
+
+.addBtn{
+  border: 1px solid gray;
+  text-align: center;
+  font-weight: 700 ;
+  font-size: large;
+  
+  color: rgb(27, 166, 114);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  max-width: 85px;
+  background-color: white;
+  margin-left: 24px ;
+  
+}
+
+.addBtn:hover{
+  cursor: pointer;
+  background-color: rgb(236, 234, 234);
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+.description{
+  color:  gray;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.loaderSpinner{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.footer{
+  
+  position: relative;
+  bottom: 0;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0 120px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer p,a{
+  font-size: small;
+  color: lightgray;
+  text-decoration: none;
+ 
+}
+
+
+
+.footerDetails{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  gap: 60px;
+  margin-top: 20px;
+
+}
+
+
+@media (max-width: 576px){
+  .topBarSection{
+       
+       padding: 0 10px;
+       border: 1px solid red;  
+        
+       
+  }
+
+  .landingSectionItems{
+    padding: 0
+    
+
+  }
+  .itemSection{
+    margin: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    
+   
+  }
+  h3{
+    margin: 10px;
+    font-size: medium;
+    font-weight: 700;
+  }
+  .chainSection{
+    
+    margin: 20px;
+   
+  }
+  .vendorBox{
+   
+   width: 100%;
+   max-width: 80%;
+   height: 250px;
+
+  }
+  .firmSection{
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .productSection{
+    
+    padding: 0 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .productSection h3{
+    text-align: center;
+  }
+
+}
