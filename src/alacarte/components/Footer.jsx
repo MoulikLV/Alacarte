@@ -16,7 +16,7 @@ const Footer = () => {
        </div>
        <div className='legal'>
            <h4>Legal</h4>
-           <Link   to='/terms-and-conditions' target='_top'  ><p>Terms & Conditions</p></Link>
+           <Link   to='/terms-and-conditions' target='_self'  ><p>Terms & Conditions</p></Link>
        </div>
       </div>
     </div>
