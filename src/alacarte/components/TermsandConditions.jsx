@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 const TermsandConditions = () => {
 
     useEffect(()=>{
+       
         document.title="Terms & Conditions | Alacarte"
     },[])
 
