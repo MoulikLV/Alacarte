@@ -6,13 +6,13 @@ const Firmcollections = () => {
 
     const [firmData,setFirmData]=useState([])
 
-    const [selectedRegion,setSelectedRegion]=useState('All')
+    const [selectedRegion,setSelectedRegion]=useState('All') 
 
     const getfirmDetails=async()=>{
         try {
             const response= await fetch(`${API_URL}/vendor/all-vendors`)
             const  newData= await response.json()
-            setFirmData(newData)
+            setFirmData(newData)                
 
             console.log('this is firmData2',newData)
         } catch (error) {

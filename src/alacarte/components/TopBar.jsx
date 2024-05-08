@@ -6,7 +6,7 @@ const TopBar = () => {
     <div className='topBarSection'>
         <div className='companyTitle' >
             <Link to='/' className='link'>
-             <h2>A la carte</h2>
+             <h2>A la`carte</h2>
             </Link>
         </div>
         <div className='searchInput'>
