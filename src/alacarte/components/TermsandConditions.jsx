@@ -41,7 +41,9 @@ Additionally, users agree to abide by all applicable laws and regulations govern
 
         
     </div>
+   
     </>
+    
   )
 }
 

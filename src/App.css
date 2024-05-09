@@ -369,24 +369,32 @@ body{
 
 
 
-@media (max-width: 576px){
+@media  (max-width: 768px){
   .topBarSection{
        
-       padding: 0 10px;
-       border: 1px solid red;  
+       padding: 0 20px;
+       height: 10vh;
+       
         
        
   }
 
   .landingSectionItems{
-    padding: 0
+    padding: 0 10px
     
 
   }
   .itemSection{
     margin: 10px;
-    margin-left: 20px;
+    align-items: center;
+    
+    margin-left: 55px;
+    height: 10vh;
+    width: 100%;
+    max-width: 100vw;
     justify-content: center;
+    
+    
     
    
   }
@@ -395,16 +403,30 @@ body{
     font-size: medium;
     font-weight: 700;
   }
-  .chainSection{
+
+  .chainsdiv{
+    display: flex;
+    flex-direction: column;
     
+      width: 120vw;
+      
+    
+    
+      
+  }
+  
+  .chainSection{
+   
     margin: 20px;
+    max-width: 100%;
    
   }
   .vendorBox{
    
    width: 100%;
-   max-width: 80%;
+   max-width: 100%;
    height: 250px;
+   
 
   }
   .firmSection{
@@ -424,5 +446,28 @@ body{
   .productSection h3{
     text-align: center;
   }
+  .footer{
+    border: 1px solid red;
+    width: 70vw;
+    height: 20vh;
+  }
+  .footerDetails {
+    flex-wrap: nowrap;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .companyName, .contact, .legal {
+    
+    
+    flex: 1 1 auto;
+    text-align: center;
+     
+  }
+  
+  
 
 }
