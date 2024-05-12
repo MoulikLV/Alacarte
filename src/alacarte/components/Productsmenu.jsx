@@ -55,7 +55,7 @@ const Productsmenu = () => {
                 
                  <div className='productDetails'>
                    <div className='productsVariables'>
-                     
+                      <span>{item.category.includes('veg')? <img style={{height:'25px'}} src='/public/veg-11550711253vnfmbgbrbn.png'/> : <img style={{height:'16px'}} src='/public/non-vegetarian.jpg'/>}</span>
                       <div>{item.productName}</div>
                       <div>{`Rs.${item.price}`}</div>
                       <div className='description'>

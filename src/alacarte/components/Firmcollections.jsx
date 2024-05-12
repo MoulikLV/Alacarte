@@ -37,7 +37,7 @@ const Firmcollections = () => {
      <button style={{color:'Highlight'}} onClick={()=>filterHandler('Bakery')}>Bakery</button>
      
     
-    <div className='firmSection'>
+    <div className='firmSection'> 
       {firmData.vendors && firmData.vendors.map((vendor)=>{ 
 
         return (
