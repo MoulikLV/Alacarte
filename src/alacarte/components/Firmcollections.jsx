@@ -30,15 +30,16 @@ const Firmcollections = () => {
   return (
     <>
      <h2>Restaurants with Online delivery in Vizag</h2>
-     <button onClick={()=>filterHandler('All')}>All</button>
-     <button onClick={()=>filterHandler('south-indian')}>South-Indian</button>
-     <button onClick={()=>filterHandler('north-indian')}>North-Indian</button>
-     <button onClick={()=>filterHandler('chinese')}>Chinese</button>
-     <button onClick={()=>filterHandler('Bakery')}>Bakery</button>
+     <button style={{color:'Highlight'}} onClick={()=>filterHandler('All')}>All</button>&nbsp;&nbsp;
+     <button style={{color:'Highlight'}} onClick={()=>filterHandler('south-indian')}>South-Indian</button>&nbsp;&nbsp;
+     <button style={{color:'Highlight'}} onClick={()=>filterHandler('north-indian')}>North-Indian</button>&nbsp;&nbsp;
+     <button style={{color:'Highlight'}} onClick={()=>filterHandler('chinese')}>Chinese</button>&nbsp;&nbsp;
+     <button style={{color:'Highlight'}} onClick={()=>filterHandler('Bakery')}>Bakery</button>
      
     
     <div className='firmSection'>
-      {firmData.vendors && firmData.vendors.map((vendor)=>{
+      {firmData.vendors && firmData.vendors.map((vendor)=>{ 
+
         return (
             <>
             <div className='firmBox'>
@@ -50,7 +51,7 @@ const Firmcollections = () => {
                         <Link to={`/productsmenu/${item._id}/${item.firmName}`} className='link'>
 
          <div className='vendorGroupbox'>
-                         <div className='vendorGroup'>
+                         <div className='vendorGroup'> 
                             <img src={`${API_URL}/uploads/${item.image}`} />
                             <div className='firmOffer'>
                                {item.offer}
