@@ -55,7 +55,7 @@ const Productsmenu = () => {
                 
                  <div className='productDetails'>
                    <div className='productsVariables'>
-                      <span>{item.category.includes('veg')? <img style={{height:'25px'}} src='/public/veg-11550711253vnfmbgbrbn.png'/> : <img style={{height:'16px'}} src='/public/non-vegetarian.jpg'/>}</span>
+                      <span>{item.category.includes('veg')? <img style={{height:'25px'}} src='https://res.cloudinary.com/mouliklv/image/upload/v1715501693/veg-11550711253vnfmbgbrbn_ledvt2.png'/> : <img style={{height:'16px'}} src='https://res.cloudinary.com/mouliklv/image/upload/v1715501610/non-vegetarian_iwm2mj.jpg'/>}</span>
                       <div>{item.productName}</div>
                       <div>{`Rs.${item.price}`}</div>
                       <div className='description'>
