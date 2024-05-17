@@ -199,14 +199,14 @@ body{
 .firmOffer{
   
   width: 100%;
-  max-width:210px;
+  max-width:200px;
   position: absolute;
- 
-  top:107px;
+  text-align: center;
+  top:108px;
   background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  padding-left: 10px;
+  padding:0 10px;
   font-size: 1rem;
   font-weight: 700;
 
