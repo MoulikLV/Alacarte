@@ -80,15 +80,17 @@ body{
   align-items: center;
   color: black;
   text-align: right;
-  cursor: pointer;
+  
   font-size: 20px;
   padding-right: 10px;
  
 }
 
 .scrollicons{
+ 
   color: gray;
   font-size: 30PX;
+  cursor: pointer;
 }
 .scrollicons:hover{
   transform: scale(1.1);
@@ -105,13 +107,14 @@ body{
 
 .vendorBox{
  
+  cursor: pointer;
+  margin: 0 10px;
 }
 
 .vendorBox img{ 
       width: 320px;
       height: 200px;
-      margin: 0 15px ;
-      margin-left: 0;
+      
       object-fit: cover;
       border-radius: 10px;
 }
