@@ -30,11 +30,11 @@ const Firmcollections = () => {
   return (
     <>
      <h2>Restaurants with Online delivery in Vizag</h2>
-     <button style={{color:'Highlight'}} onClick={()=>filterHandler('All')}>All</button>&nbsp;&nbsp;
-     <button style={{color:'Highlight'}} onClick={()=>filterHandler('south-indian')}>South-Indian</button>&nbsp;&nbsp;
-     <button style={{color:'Highlight'}} onClick={()=>filterHandler('north-indian')}>North-Indian</button>&nbsp;&nbsp;
-     <button style={{color:'Highlight'}} onClick={()=>filterHandler('chinese')}>Chinese</button>&nbsp;&nbsp;
-     <button style={{color:'Highlight'}} onClick={()=>filterHandler('Bakery')}>Bakery</button>
+     <span className='choose'  onClick={()=>filterHandler('All')}>All</span>&nbsp;&nbsp;
+     <span className='choose'  onClick={()=>filterHandler('south-indian')}>South-Indian</span>&nbsp;&nbsp;
+     <span className='choose'  onClick={()=>filterHandler('north-indian')}>North-Indian</span>&nbsp;&nbsp;
+     <span className='choose'  onClick={()=>filterHandler('chinese')}>Chinese</span>&nbsp;&nbsp;
+     <span className='choose'  onClick={()=>filterHandler('Bakery')}>Bakery</span>
      
     
     <div className='firmSection'> 
