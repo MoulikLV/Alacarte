@@ -492,6 +492,33 @@ button{
     text-align: center;
      
   }
+
+  .terms {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+
+  .termstext {
+    display: flex;
+    
+    
+    width: 300px;
+  
+  }
+
+  .termstext p{
+    display: flex;
+    
+    align-items: start;
+    
+    
+   
+    
+    margin-left: 10px;
+  }
+
+  
   
   
 
