@@ -33,7 +33,7 @@ const Productsmenu = () => {
 
 
     useEffect(()=>{
-        productsHandler()
+        productsHandler() 
     },[])
 
   return (
@@ -56,7 +56,7 @@ const Productsmenu = () => {
                  <div className='productDetails'>
                    <div className='productsVariables'>
                       <span>{item.category.includes('veg')? <img style={{height:'25px'}} src='https://res.cloudinary.com/mouliklv/image/upload/v1715501693/veg-11550711253vnfmbgbrbn_ledvt2.png'/> : <img style={{height:'16px'}} src='https://res.cloudinary.com/mouliklv/image/upload/v1715501610/non-vegetarian_iwm2mj.jpg'/>}</span>
-                      <div>{item.productName}</div>
+                      <div style={{color:"#02060CBF"}}><strong>{item.productName}</strong></div>
                       <div>{`Rs.${item.price}`}</div>
                       <div className='description'>
                         <p>{item.description}</p>
